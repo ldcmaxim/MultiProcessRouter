@@ -24,19 +24,30 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
         findViewById(R.id.request_main_process_btn).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-//                RouteRequest request = new RouteRequest.Builder()
-//                        .process(ProcessUtils.getMainProcess(v.getContext()))
-//                        .provider("MainProcessProvider")
-//                        .action("MainProcessActionOne")
-//                        .cacheStrategy(MemoryCacheStrategy.FIXED)
-//                        .build();
-//                RouteResponse<String> response = Router.route(v.getContext(), request);
-//                if (response.isSuccess()) {
-//                    Toast.makeText(SecondActivity.this, response.getResult(), Toast.LENGTH_LONG).show();
-//                } else {
-//                    Toast.makeText(SecondActivity.this, response.getError(), Toast.LENGTH_LONG).show();
-//                }
+            public void onClick(final View v) {
+                new Thread(){
+                    @Override
+                    public void run() {
+                        super.run();
+                        RouteRequest request = new RouteRequest.Builder()
+                                .process(ProcessUtils.getMainProcess(v.getContext()))
+                                .provider("MainProcessProvider")
+                                .action("MainProcessActionOne")
+                                .cacheStrategy(MemoryCacheStrategy.FIXED)
+                                .build();
+                        final RouteResponse<String> response = Router.route(v.getContext(), request);
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (response.isSuccess()) {
+                                    Toast.makeText(SecondActivity.this, response.getResult(), Toast.LENGTH_LONG).show();
+                                } else {
+                                    Toast.makeText(SecondActivity.this, response.getError(), Toast.LENGTH_LONG).show();
+                                }
+                            }
+                        });
+                    }
+                }.start();
             }
         });
 
