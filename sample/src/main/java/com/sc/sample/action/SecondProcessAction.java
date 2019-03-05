@@ -11,8 +11,8 @@ import com.sc.sample.bean.TestResult;
 import com.sc.sample.provider.SecondProcessProvider;
 
 /**
- * @author shamschu
- * @Date 17/8/30 上午9:10
+ * @author Ryan
+ * create by 17/8/30 上午9:10
  */
 @Action(provider = SecondProcessProvider.class)
 public class SecondProcessAction extends RouteAction<String, TestResult> {

@@ -4,8 +4,8 @@ import com.sc.framework.annotation.Provider;
 import com.sc.framework.router.RouteProvider;
 
 /**
- * @author shamschu
- * @Date 17/8/30 上午9:11
+ * @author Ryan
+ * create by 17/8/30 上午9:11
  */
 @Provider(process = "com.sc.sample:second")
 public class SecondProcessProvider extends RouteProvider {

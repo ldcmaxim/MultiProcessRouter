@@ -13,8 +13,8 @@ import com.sc.framework.router.MemoryCacheStrategy;
 import com.sc.framework.router.ProcessUtils;
 
 /**
- * @author shamschu
- * @Date 17/8/28 上午10:24
+ * @author Ryan
+ * create by 17/8/28 上午10:24
  */
 public class SecondActivity extends AppCompatActivity {
 

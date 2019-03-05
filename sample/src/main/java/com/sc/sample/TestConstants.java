@@ -1,8 +1,8 @@
 package com.sc.sample;
 
 /**
- * @author shamschu
- * @Date 17/8/30 下午2:33
+ * @author Ryan
+ * create by 17/8/30 下午2:33
  */
 public class TestConstants {
 

@@ -18,8 +18,8 @@ import javax.annotation.processing.Processor;
 import javax.lang.model.element.Modifier;
 
 /**
- * @author shamschu
- * @Date 17/8/23 下午6:10
+ * @author Ryan
+ * create by 17/8/23 下午6:10
  */
 @AutoService(Processor.class)
 public class RouterProcessor extends AbsAnnotationProcessor {

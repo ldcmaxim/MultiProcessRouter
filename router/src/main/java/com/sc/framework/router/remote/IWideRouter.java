@@ -8,8 +8,8 @@ import com.sc.framework.router.RouteRequest;
 import com.sc.framework.router.RouteResponse;
 
 /**
- * @author shamschu
- * @date 2018/10/11
+ * @author Ryan
+ * create by 2018/10/11
  */
 public interface IWideRouter extends IInterface {
 

@@ -10,8 +10,8 @@ import com.sc.sample.bean.TestResult;
 import com.sc.sample.provider.MainProcessProvider;
 
 /**
- * @author shamschu
- * @Date 17/8/29 下午3:00
+ * @author Ryan
+ * create by 17/8/29 下午3:00
  */
 @Action(provider = MainProcessProvider.class)
 public class MainProcessActionTwo extends RouteAction<Void, TestResult> {

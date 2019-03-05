@@ -10,14 +10,14 @@ ext {
 
     libraryDescription = 'A router framework support multi-process interaction'
 
-    siteUrl = 'https://github.com/ShamsChu/MultiProcessRouter'
-    gitUrl = 'https://github.com/ShamsChu/MultiProcessRouter.git'
+    siteUrl = 'https://github.com/Ryan/MultiProcessRouter'
+    gitUrl = 'https://github.com/Ryan/MultiProcessRouter.git'
 
     libraryVersion = '1.0.0'
 
-    developerId = 'shamschu'
-    developerName = 'shamschu'
-    developerEmail = 'shamschu@gmail.com'
+    developerId = 'Ryan'
+    developerName = 'Ryan'
+    developerEmail = 'Ryan@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'

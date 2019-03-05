@@ -9,8 +9,8 @@ import com.sc.framework.router.RouteRequest;
 import com.sc.sample.provider.MainProcessProvider;
 
 /**
- * @author shamschu
- * @Date 17/8/28 上午9:27
+ * @author Ryan
+ * create by 17/8/28 上午9:27
  */
 @Action(provider = MainProcessProvider.class)
 public class MainProcessActionOne extends RouteAction<Void, String> {

@@ -8,8 +8,8 @@ import android.util.Log;
 import com.sc.framework.router.remote.IWideRouter;
 
 /**
- * @author shamschu
- * @Date 17/5/10 下午3:49
+ * @author Ryan
+ * create by 17/5/10 下午3:49
  */
 public final class RouteManager {
 

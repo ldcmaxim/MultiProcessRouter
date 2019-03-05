@@ -1,8 +1,8 @@
 package com.sc.framework.router;
 
 /**
- * @author shamschu
- * @Date 17/9/1 下午4:51
+ * @author Ryan
+ * create by 17/9/1 下午4:51
  */
 public interface RouteCache {
 

@@ -18,8 +18,8 @@ import javax.lang.model.type.MirroredTypeException;
 import javax.lang.model.type.TypeMirror;
 
 /**
- * @author shamschu
- * @Date 17/8/24 上午11:33
+ * @author Ryan
+ * create by 17/8/24 上午11:33
  */
 public class ActionSingleHandler extends AbsSingleAnnotationHandler {
 

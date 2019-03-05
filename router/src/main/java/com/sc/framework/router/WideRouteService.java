@@ -9,8 +9,8 @@ import android.support.annotation.Nullable;
 import com.sc.framework.router.remote.WideRouterNative;
 
 /**
- * @author shamschu
- * @Date 17/7/14 上午11:34
+ * @author Ryan
+ * create by 17/7/14 上午11:34
  */
 public class WideRouteService extends Service {
 

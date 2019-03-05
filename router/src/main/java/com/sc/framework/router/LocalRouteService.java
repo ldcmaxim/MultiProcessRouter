@@ -7,8 +7,8 @@ import android.os.IBinder;
 import com.sc.framework.router.remote.LocalRouterNative;
 
 /**
- * @author shamschu
- * @Date 17/7/14 下午3:49
+ * @author Ryan
+ * create by 17/7/14 下午3:49
  */
 public class LocalRouteService extends Service {
 

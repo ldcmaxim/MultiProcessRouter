@@ -13,8 +13,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author shamschu
- * @Date 17/8/28 下午2:13
+ * @author Ryan
+ * create by 17/8/28 下午2:13
  */
 public class TestApplication extends Application {
 

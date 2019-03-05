@@ -3,8 +3,8 @@ package com.sc.framework.compiler;
 import com.squareup.javapoet.ClassName;
 
 /**
- * @author shamschu
- * @Date 17/8/26 下午8:59
+ * @author Ryan
+ * create by 17/8/26 下午8:59
  */
 class InterfaceHelper {
 

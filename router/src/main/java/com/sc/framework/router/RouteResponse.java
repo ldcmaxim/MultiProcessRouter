@@ -5,8 +5,8 @@ import android.os.Parcelable;
 import android.text.TextUtils;
 
 /**
- * @author shamschu
- * @Date 17/5/10 下午3:55
+ * @author Ryan
+ * create by 17/5/10 下午3:55
  */
 public class RouteResponse<T> implements Parcelable {
 

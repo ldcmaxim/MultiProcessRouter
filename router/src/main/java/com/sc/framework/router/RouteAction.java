@@ -3,8 +3,8 @@ package com.sc.framework.router;
 import android.content.Context;
 
 /**
- * @author shamschu
- * @Date 17/5/10 下午3:54
+ * @author Ryan
+ * create by 17/5/10 下午3:54
  */
 public abstract class RouteAction<T, V> {
 

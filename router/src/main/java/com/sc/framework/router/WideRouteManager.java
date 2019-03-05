@@ -21,8 +21,8 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * 多进程路由管理器
  *
- * @author shamschu
- * @Date 17/7/14 上午10:56
+ * @author Ryan
+ * create by 17/7/14 上午10:56
  */
 public class WideRouteManager {
 

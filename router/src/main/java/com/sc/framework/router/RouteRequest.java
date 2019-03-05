@@ -4,8 +4,8 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 /**
- * @author shamschu
- * @Date 17/5/10 下午3:51
+ * @author Ryan
+ * create by 17/5/10 下午3:51
  */
 public class RouteRequest<T> implements Parcelable {
 

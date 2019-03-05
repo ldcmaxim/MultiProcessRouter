@@ -16,8 +16,8 @@ import javax.lang.model.element.Modifier;
 import javax.lang.model.element.TypeElement;
 
 /**
- * @author shamschu
- * @Date 17/8/24 上午11:33
+ * @author Ryan
+ * create by 17/8/24 上午11:33
  */
 public class ProviderSingleHandler extends AbsSingleAnnotationHandler {
 

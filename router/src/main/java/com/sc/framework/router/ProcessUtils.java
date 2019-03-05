@@ -4,8 +4,8 @@ import android.app.ActivityManager;
 import android.content.Context;
 
 /**
- * @author zhushuhang
- * @Date 17/8/28 下午3:55
+ * @author Ryan
+ * create by 17/8/28 下午3:55
  */
 public class ProcessUtils {
 

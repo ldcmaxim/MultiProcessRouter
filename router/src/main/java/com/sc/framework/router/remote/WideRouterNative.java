@@ -13,8 +13,8 @@ import com.sc.framework.router.RouteResponse;
 import com.sc.framework.router.WideRouteManager;
 
 /**
- * @author shamschu
- * @date 2018/10/11
+ * @author Ryan
+ * create by 2018/10/11
  */
 public class WideRouterNative extends Binder implements IWideRouter {
 

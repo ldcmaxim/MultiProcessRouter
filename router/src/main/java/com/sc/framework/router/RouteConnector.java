@@ -17,7 +17,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author shamschu
+ * @author Ryan
  */
 class RouteConnector {
 

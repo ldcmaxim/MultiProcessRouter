@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author shamschu
- * @Date 17/5/10 下午3:52
+ * @author Ryan
+ * create by 17/5/10 下午3:52
  */
 public abstract class RouteProvider {
 
